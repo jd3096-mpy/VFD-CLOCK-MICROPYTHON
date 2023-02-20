@@ -1,0 +1,480 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>硬件相关 · VFD-CLOCK-WIKI</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="jd3096">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="software.html" />
+    
+    
+    <link rel="prev" href="question.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="question.html">
+            
+                <a href="question.html">
+            
+                    
+                    常见问题解答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="hardware.html">
+            
+                <a href="hardware.html">
+            
+                    
+                    硬件相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="software.html">
+            
+                <a href="software.html">
+            
+                    
+                    软件相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="function.html">
+            
+                <a href="function.html">
+            
+                    
+                    功能详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="update.html">
+            
+                <a href="update.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="shell.html">
+            
+                <a href="shell.html">
+            
+                    
+                    关于外壳（招外壳设计大佬）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="thanks.html">
+            
+                <a href="thanks.html">
+            
+                    
+                    鸣谢
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >硬件相关</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x786C;&#x4EF6;&#x6E05;&#x5355;">&#x786C;&#x4EF6;&#x6E05;&#x5355;</h2>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x7248;&#x8C6A;&#x534E;&#x7248;&#xFF1A;&#x731B;&#x5806;&#x6599;&#xFF0C;&#x5305;&#x62EC;&#x4EC0;&#x4E48;RGB&#x706F;&#xFF0C;&#x6EDA;&#x8F6E;&#x7F16;&#x7801;&#x5668;&#xFF0C;&#x8702;&#x9E23;&#x5668;&#xFF0C;RTC&#xFF0C;&#x90FD;&#x4E0A;&#x4E86;&#xFF0C;&#x5C31;&#x4E3A;&#x4E86;&#x9A8C;&#x8BC1;&#x54EA;&#x4E9B;&#x4F7F;&#x7528;</li>
+<li>&#x7B2C;&#x4E8C;&#x7248;&#x7CBE;&#x7B80;&#x7248;&#xFF1A;&#x6838;&#x5FC3;&#x529F;&#x80FD;WIFI&#x65F6;&#x949F;&#xFF0C;&#x4FDD;&#x7559;&#x7684;&#x53EA;&#x6709;&#x62E8;&#x52A8;&#x5F00;&#x5173;&#x3001;&#x5149;&#x654F;&#xFF0C;&#x5C4F;&#x5E55;&#x7528;&#x88F8;&#x5C4F;&#xFF0C;&#x6210;&#x672C;&#x6700;&#x4F4E;&#xFF0C;&#x4E00;&#x5757;&#x677F;&#x5B50;&#x641E;&#x5B9A;&#x3001;&#x9884;&#x7559;4pin&#x63A5;&#x53E3;</li>
+<li>&#x7B2C;&#x4E09;&#x7248;&#x65E9;&#x9E1F;&#x7248;&#xFF1A;&#x8FD8;&#x662F;&#x4FDD;&#x7559;&#x4E86;RTC&#x7535;&#x8DEF;&#xFF0C;&#x4E0B;&#x90E8;&#x6253;&#x7B97;&#x505A;&#x4F4E;&#x914D;&#x9AD8;&#x914D;&#x53CC;&#x914D;&#x7F6E;</li>
+</ul>
+<h2 id="&#x786C;&#x4EF6;&#x539F;&#x7406;&#x56FE;">&#x786C;&#x4EF6;&#x539F;&#x7406;&#x56FE;</h2>
+<p>&#x5F85;&#x786E;&#x5B9A;&#x7A33;&#x5B9A;&#x7248;&#x540E;&#x653E;&#x51FA;</p>
+<h2 id="&#x786C;&#x4EF6;bom">&#x786C;&#x4EF6;BOM</h2>
+<p>&#x5F85;&#x786E;&#x5B9A;&#x7A33;&#x5B9A;&#x7248;&#x540E;&#x653E;&#x51FA;</p>
+<h2 id="gpio">GPIO</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>IO Pin</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RTC_Interrupt</td>
+<td>IO5</td>
+<td>PCF8563</td>
+</tr>
+<tr>
+<td>&#x5149;&#x654F;&#x7535;&#x963B;_ADC</td>
+<td>IO6</td>
+<td></td>
+</tr>
+<tr>
+<td>Button_1</td>
+<td>IO7</td>
+<td></td>
+</tr>
+<tr>
+<td>Button_2 (Boot)</td>
+<td>IO0</td>
+<td>&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x9009;&#x62E9;</td>
+</tr>
+<tr>
+<td>Button_3 (EN)</td>
+<td>N/A</td>
+<td>ESP32_RESET</td>
+</tr>
+<tr>
+<td>Buzzer</td>
+<td>IO8</td>
+<td>&#x8702;&#x9E23;&#x5668;</td>
+</tr>
+<tr>
+<td>VFD_DIN (MOSI)</td>
+<td>IO9</td>
+<td></td>
+</tr>
+<tr>
+<td>VFD_CLK</td>
+<td>IO10</td>
+<td></td>
+</tr>
+<tr>
+<td>VFD_CS</td>
+<td>IO11</td>
+<td></td>
+</tr>
+<tr>
+<td>VFD_RESET</td>
+<td>IO12</td>
+<td></td>
+</tr>
+<tr>
+<td>VFD_EN</td>
+<td>IO13</td>
+<td>&#x9700;&#x8981;&#x62C9;&#x9AD8;&#xFF0C;&#x62C9;&#x9AD8;&#x540E;&#x7ED9; VFD &#x4F9B;&#x7535;</td>
+</tr>
+<tr>
+<td>RGB_LED (WS2812)</td>
+<td>IO14</td>
+<td>&#x5F69;&#x706F;</td>
+</tr>
+<tr>
+<td>I2C_SDA</td>
+<td>IO41</td>
+<td>&#x89C1;&#x4E0B;&#x9762; I2C &#x8BBE;&#x5907;&#x5217;&#x8868;</td>
+</tr>
+<tr>
+<td>I2C_SCL</td>
+<td>IO42</td>
+<td>&#x89C1;&#x4E0B;&#x9762; I2C &#x8BBE;&#x5907;&#x5217;&#x8868;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="i2c-addresses&#xFF08;&#x53EA;&#x7559;&#x4E86;pcf8563&#xFF09;">I2C Addresses&#xFF08;&#x53EA;&#x7559;&#x4E86;PCF8563&#xFF09;</h2>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Address</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PCF8563</td>
+<td>81 (0x51)</td>
+<td>RTC</td>
+</tr>
+<tr>
+<td>SHT30</td>
+<td>68 (0x44)</td>
+<td>&#x6E29;&#x5EA6;/&#x6E7F;&#x5EA6;&#x4F20;&#x611F;&#x5668;</td>
+</tr>
+<tr>
+<td>BMP280</td>
+<td>118 (0x76)</td>
+<td>&#x6C14;&#x538B;/&#x6E29;&#x5EA6;&#x4F20;&#x611F;&#x5668;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="question.html" class="navigation navigation-prev " aria-label="Previous page: 常见问题解答">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="software.html" class="navigation navigation-next " aria-label="Next page: 软件相关">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"硬件相关","level":"1.3","depth":1,"next":{"title":"软件相关","level":"1.4","depth":1,"path":"software.md","ref":"software.md","articles":[]},"previous":{"title":"常见问题解答","level":"1.2","depth":1,"path":"question.md","ref":"question.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"hardware.md","mtime":"2023-02-18T12:06:49.047Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-20T07:53:28.655Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

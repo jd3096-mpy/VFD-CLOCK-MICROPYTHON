@@ -1,0 +1,384 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>功能详解 · VFD-CLOCK-WIKI</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="jd3096">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="update.html" />
+    
+    
+    <link rel="prev" href="intro.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="question.html">
+            
+                <a href="question.html">
+            
+                    
+                    常见问题解答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="hardware.html">
+            
+                <a href="hardware.html">
+            
+                    
+                    硬件相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="software.html">
+            
+                <a href="software.html">
+            
+                    
+                    软件相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="function.html">
+            
+                <a href="function.html">
+            
+                    
+                    功能详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="update.html">
+            
+                <a href="update.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="shell.html">
+            
+                <a href="shell.html">
+            
+                    
+                    关于外壳（招外壳设计大佬）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="thanks.html">
+            
+                <a href="thanks.html">
+            
+                    
+                    鸣谢
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >功能详解</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x83DC;&#x5355;&#x529F;&#x80FD;&#x8BF4;&#x660E;&#x4E66;">&#x83DC;&#x5355;&#x529F;&#x80FD;&#x8BF4;&#x660E;&#x4E66;</h2>
+<h3 id="datetime">DATETIME</h3>
+<p>&#x6700;&#x57FA;&#x7840;&#x529F;&#x80FD;&#xFF0C;&#x52A8;&#x753B;&#x663E;&#x793A;&#x65F6;&#x95F4;
+&#x5DE6;&#x952E;&#x67E5;&#x770B;&#x65E5;&#x671F;&#x661F;&#x671F; &#x53F3;&#x952E;&#x4E3A;&#x67E5;&#x770B;&#x5012;&#x8BA1;&#x65F6;countday&#x7684;&#x5929;&#x6570;</p>
+<h3 id="xgo2-dog">XGO2-DOG</h3>
+<p><a href="https://www.kickstarter.com/projects/xgorobot/xgo-2-worlds-first-raspberry-pi-robotic-dog-with-an-arm?ref=discovery" target="_blank">https://www.kickstarter.com/projects/xgorobot/xgo-2-worlds-first-raspberry-pi-robotic-dog-with-an-arm?ref=discovery</a></p>
+<p>XGO2-DOG &#x4E3A;&#x6211;&#x53C2;&#x4E0E;&#x7684;&#x4F17;&#x7B79;&#x9879;&#x76EE;&#xFF0C;&#x6811;&#x8393;&#x6D3E;&#x4E3A;&#x6838;&#x5FC3;&#x7684;&#x673A;&#x5668;&#x72D7;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x53EF;&#x4EE5;&#x770B;&#x770B;</p>
+<p>&#x67E5;&#x770B;XGO2-DOG &#x5728;kickstarter&#x7684;&#x4F17;&#x7B79;&#x60C5;&#x51B5;&#xFF0C;&#x4E3A;github action&#x722C;&#x866B;&#x83B7;&#x53D6;&#xFF0C;&#x6BCF;&#x65E5;&#x4E24;&#x6B21;</p>
+<p>&#x4E3B;&#x8981;&#x6F14;&#x793A;esp32&#x7684;&#x7F51;&#x7EDC;api&#x83B7;&#x53D6;&#x529F;&#x80FD;</p>
+<h3 id="countday">COUNTDAY</h3>
+<p>&#x5012;&#x8BA1;&#x65F6;&#x76EE;&#x6807;&#x65E5;&#x671F;&#x7684;&#x8BBE;&#x5B9A;</p>
+<h3 id="timezone">TIMEZONE</h3>
+<p>&#x5047;&#x88C5;&#x81EA;&#x5DF1;&#x8DDF;&#x56FD;&#x9645;&#x63A5;&#x8F68;  24&#x65F6;&#x533A;&#x7684;&#x8BBE;&#x7F6E; &#x8BBE;&#x7F6E;&#x5B8C;&#x6BD5;&#x4F1A;&#x81EA;&#x52A8;ntp&#x6821;&#x65F6; &#x83B7;&#x53D6;&#x5BF9;&#x5E94;&#x65F6;&#x533A;&#x7684;&#x65F6;&#x95F4;</p>
+<h3 id="ntptime">NTPTIME</h3>
+<p>&#x6838;&#x5FC3;&#x6821;&#x65F6;&#x529F;&#x80FD;  &#x5E26;&#x4E2A;&#x5C0F;&#x52A8;&#x753B;</p>
+<h3 id="bright">BRIGHT</h3>
+<p>&#x80CC;&#x5149;&#x8BBE;&#x5B9A; &#x8BBE;&#x7F6E;&#x5230;&#x4E0A;&#x4E0B;&#x9650;&#x5373;&#x4E3A; AUTO</p>
+<h3 id="ble-net">BLE-&gt;NET</h3>
+<p>&#x4EAE;&#x70B9;1&#xFF1A;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;BLE&#x914D;&#x7F51;</p>
+<h3 id="update">UPDATE</h3>
+<p>&#x4EAE;&#x70B9;2&#xFF1A;&#x7A0B;&#x5E8F;&#x81EA;&#x52A8;&#x5347;&#x7EA7;</p>
+<h3 id="sys-info">SYS INFO</h3>
+<p>&#x7CFB;&#x7EDF;&#x4FE1;&#x606F;&#x663E;&#x793A;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page: 使用说明">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="update.html" class="navigation navigation-next " aria-label="Next page: 更新日志">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"功能详解","level":"1.6","depth":1,"next":{"title":"更新日志","level":"1.7","depth":1,"path":"update.md","ref":"update.md","articles":[]},"previous":{"title":"使用说明","level":"1.5","depth":1,"path":"intro.md","ref":"intro.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"function.md","mtime":"2023-02-18T12:13:35.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-20T07:53:28.655Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
