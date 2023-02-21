@@ -9,5 +9,5 @@
 - [使用说明](intro.md)
 - [功能详解](function.md)
 - [更新日志](update.md)
-- [关于外壳（招外壳设计大佬）](shell.md)
+- [关于外壳](shell.md)
 - [鸣谢](thanks.md)
