@@ -4,6 +4,10 @@
 
 甚至在外壳的基础上增加了很多原色，真是太酷啦！
 
+开源外壳文件位置：
+
+[shell · jd3096/VFD-CLOCK-WIKI - 码云 - 开源中国 (gitee.com)](https://gitee.com/jd3096/vfd-clock-wiki/tree/master/shell)
+
 现在分为两个版本的外壳，一是由dong大佬设计的外壳，如下：
 
 ![SHELL 1](./pics/shell1.jpg)

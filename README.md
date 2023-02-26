@@ -11,9 +11,9 @@
 
 我个人认为VFD时钟有种**跨时代的美感**，放在哪里你都会觉得它不是这个时代的产物，可能是早些80年代，也可能是未来的赛博朋克年代，总之总是跟周围的事物格格不入，清晰锐利的观感只有**实物才能体现**，照片和语言都是描述不出来的。
 
-**[项目仓库地址](https://gitee.com/jd3096/vfd-clock-wiki)**
+**[项目仓库地址（含固件、最新程序文件、外壳文件）](https://gitee.com/jd3096/vfd-clock-wiki)**
 
-**[项目WIKI地址](https://gitee.com/jd3096/vfd-clock-wiki)**
+**[项目WIKI地址（WIKI专用仓库）](https://gitee.com/jd3096/vfd-clock-wiki)**
 
 ### **-->[B站演示视频（持续更新中）](https://www.bilibili.com/video/BV1U24y1q7TB/?spm_id_from=333.999.0.0&vd_source=16fd6d2ed1bceb65dca80ff0e6e9e8ec)<--**
 
