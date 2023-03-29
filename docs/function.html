@@ -264,21 +264,31 @@
                                 <section class="normal markdown-section">
                                 
                                 <h2 id="&#x83DC;&#x5355;&#x529F;&#x80FD;&#x8BF4;&#x660E;&#x4E66;">&#x83DC;&#x5355;&#x529F;&#x80FD;&#x8BF4;&#x660E;&#x4E66;</h2>
+<h3 id="&#x4E00;&#x7EA7;&#x83DC;&#x5355;&#x5305;&#x62EC;datetime--alarm--pomodoro--setting--music--sysinfo">&#x4E00;&#x7EA7;&#x83DC;&#x5355;&#x5305;&#x62EC;DATETIME  ALARM  POMODORO  SETTING  MUSIC  SYSINFO</h3>
 <h3 id="datetime">DATETIME</h3>
 <p>&#x6700;&#x57FA;&#x7840;&#x529F;&#x80FD;&#xFF0C;&#x52A8;&#x753B;&#x663E;&#x793A;&#x65F6;&#x95F4;
 &#x5DE6;&#x952E;&#x67E5;&#x770B;&#x65E5;&#x671F;&#x661F;&#x671F; &#x53F3;&#x952E;&#x4E3A;&#x67E5;&#x770B;&#x5012;&#x8BA1;&#x65F6;countday&#x7684;&#x5929;&#x6570;</p>
-<h3 id="countday">COUNTDAY</h3>
+<h3 id="alarm">ALARM</h3>
+<p>&#x95F9;&#x949F;&#x529F;&#x80FD;&#xFF0C;&#x8BBE;&#x7F6E;&#x540E;&#x5230;&#x65F6;&#x95F4;&#x4F1A;&#x54CD;&#x97F3;&#x4E50;&#x5E76;&#x63D0;&#x793A;</p>
+<p>&#x97F3;&#x4E50;&#x5728;MUSIC&#x4E2D;&#x8BBE;&#x7F6E;</p>
+<h3 id="pomodoro">POMODORO</h3>
+<p>&#x756A;&#x8304;&#x65F6;&#x949F;&#x529F;&#x80FD;&#xFF0C;&#x4F1A;25&#x5206;&#x949F;&#x2014;&#x2014;5&#x5206;&#x949F;&#x4EA4;&#x66FF;&#x5012;&#x8BA1;&#x65F6;  &#x53EF;&#x6309;&#x4E2D;&#x95F4;&#x6682;&#x505C;</p>
+<h3 id="setting">SETTING</h3>
+<p>&#x5305;&#x62EC;&#x4E00;&#x4E0B;&#x529F;&#x80FD;&#xFF1A;</p>
+<h4 id="countday">COUNTDAY</h4>
 <p>&#x5012;&#x8BA1;&#x65F6;&#x76EE;&#x6807;&#x65E5;&#x671F;&#x7684;&#x8BBE;&#x5B9A;</p>
-<h3 id="timezone">TIMEZONE</h3>
+<h4 id="timezone">TIMEZONE</h4>
 <p>&#x5047;&#x88C5;&#x81EA;&#x5DF1;&#x8DDF;&#x56FD;&#x9645;&#x63A5;&#x8F68;  24&#x65F6;&#x533A;&#x7684;&#x8BBE;&#x7F6E; &#x8BBE;&#x7F6E;&#x5B8C;&#x6BD5;&#x4F1A;&#x81EA;&#x52A8;ntp&#x6821;&#x65F6; &#x83B7;&#x53D6;&#x5BF9;&#x5E94;&#x65F6;&#x533A;&#x7684;&#x65F6;&#x95F4;</p>
-<h3 id="ntptime">NTPTIME</h3>
+<h4 id="ntptime">NTPTIME</h4>
 <p>&#x6838;&#x5FC3;&#x6821;&#x65F6;&#x529F;&#x80FD;  &#x5E26;&#x4E2A;&#x5C0F;&#x52A8;&#x753B;</p>
-<h3 id="bright">BRIGHT</h3>
+<h4 id="bright">BRIGHT</h4>
 <p>&#x80CC;&#x5149;&#x8BBE;&#x5B9A; &#x8BBE;&#x7F6E;&#x5230;&#x4E0A;&#x4E0B;&#x9650;&#x5373;&#x4E3A; AUTO</p>
-<h3 id="ble-net">BLE-&gt;NET</h3>
+<h4 id="ble-net">BLE-&gt;NET</h4>
 <p>&#x4EAE;&#x70B9;1&#xFF1A;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;BLE&#x914D;&#x7F51;</p>
-<h3 id="update">UPDATE</h3>
+<h4 id="update">UPDATE</h4>
 <p>&#x4EAE;&#x70B9;2&#xFF1A;&#x7A0B;&#x5E8F;&#x81EA;&#x52A8;&#x5347;&#x7EA7;</p>
+<h3 id="music">MUSIC</h3>
+<p>&#x6D4F;&#x89C8;&#x548C;&#x8BBE;&#x7F6E;&#x97F3;&#x4E50;&#xFF0C;&#x9009;&#x4E2D;&#x7684;&#x97F3;&#x4E50;&#x6709;&#x63D0;&#x793A;&#x7B26;</p>
 <h3 id="sys-info">SYS INFO</h3>
 <p>&#x7CFB;&#x7EDF;&#x4FE1;&#x606F;&#x663E;&#x793A;</p>
 
@@ -324,7 +334,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"功能详解","level":"1.6","depth":1,"next":{"title":"更新日志","level":"1.7","depth":1,"path":"update.md","ref":"update.md","articles":[]},"previous":{"title":"使用说明","level":"1.5","depth":1,"path":"intro.md","ref":"intro.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"function.md","mtime":"2023-03-28T12:23:33.769Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-29T12:15:20.444Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"功能详解","level":"1.6","depth":1,"next":{"title":"更新日志","level":"1.7","depth":1,"path":"update.md","ref":"update.md","articles":[]},"previous":{"title":"使用说明","level":"1.5","depth":1,"path":"intro.md","ref":"intro.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"function.md","mtime":"2023-03-29T15:12:06.223Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-29T15:14:19.492Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
