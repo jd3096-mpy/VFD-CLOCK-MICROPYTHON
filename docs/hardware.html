@@ -268,11 +268,10 @@
 <li>&#x7B2C;&#x4E00;&#x7248;&#x8C6A;&#x534E;&#x7248;&#xFF1A;&#x731B;&#x5806;&#x6599;&#xFF0C;&#x5305;&#x62EC;&#x4EC0;&#x4E48;RGB&#x706F;&#xFF0C;&#x6EDA;&#x8F6E;&#x7F16;&#x7801;&#x5668;&#xFF0C;&#x8702;&#x9E23;&#x5668;&#xFF0C;RTC&#xFF0C;&#x90FD;&#x4E0A;&#x4E86;&#xFF0C;&#x5C31;&#x4E3A;&#x4E86;&#x9A8C;&#x8BC1;&#x54EA;&#x4E9B;&#x4F7F;&#x7528;</li>
 <li>&#x7B2C;&#x4E8C;&#x7248;&#x7CBE;&#x7B80;&#x7248;&#xFF1A;&#x6838;&#x5FC3;&#x529F;&#x80FD;WIFI&#x65F6;&#x949F;&#xFF0C;&#x4FDD;&#x7559;&#x7684;&#x53EA;&#x6709;&#x62E8;&#x52A8;&#x5F00;&#x5173;&#x3001;&#x5149;&#x654F;&#xFF0C;&#x5C4F;&#x5E55;&#x7528;&#x88F8;&#x5C4F;&#xFF0C;&#x6210;&#x672C;&#x6700;&#x4F4E;&#xFF0C;&#x4E00;&#x5757;&#x677F;&#x5B50;&#x641E;&#x5B9A;&#x3001;&#x9884;&#x7559;4pin&#x63A5;&#x53E3;</li>
 <li>&#x7B2C;&#x4E09;&#x7248;&#x65E9;&#x9E1F;&#x7248;&#xFF1A;&#x8FD8;&#x662F;&#x4FDD;&#x7559;&#x4E86;RTC&#x7535;&#x8DEF;&#xFF0C;&#x4E0B;&#x90E8;&#x6253;&#x7B97;&#x505A;&#x4F4E;&#x914D;&#x9AD8;&#x914D;&#x53CC;&#x914D;&#x7F6E;</li>
+<li>&#x7B2C;&#x56DB;&#x7248;&#x7A33;&#x5B9A;&#x7248;&#xFF08;VFD-PRO&#xFF09;&#xFF1A;&#x5347;&#x7EA7;&#x4E86;RTC&#x7535;&#x8DEF;&#xFF0C;&#x867D;&#x7136;&#x6210;&#x672C;&#x63D0;&#x5347;&#xFF0C;&#x4F46;&#x662F;&#x505A;&#x5230;&#x4E86;&#x6BCF;&#x65E5;1&#x79D2;&#x7684;&#x8D70;&#x65F6;&#x8BEF;&#x5DEE;</li>
 </ul>
 <h2 id="&#x786C;&#x4EF6;&#x539F;&#x7406;&#x56FE;">&#x786C;&#x4EF6;&#x539F;&#x7406;&#x56FE;</h2>
-<p>&#x5F85;&#x786E;&#x5B9A;&#x7A33;&#x5B9A;&#x7248;&#x540E;&#x653E;&#x51FA;</p>
-<h2 id="&#x786C;&#x4EF6;bom">&#x786C;&#x4EF6;BOM</h2>
-<p>&#x5F85;&#x786E;&#x5B9A;&#x7A33;&#x5B9A;&#x7248;&#x540E;&#x653E;&#x51FA;</p>
+<p>&#x6B64;&#x90E8;&#x5206;&#x5C0A;&#x91CD;&#x786C;&#x4EF6;&#x5DE5;&#x7A0B;&#x5E08;eggfly&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x786C;&#x4EF6;&#x90E8;&#x5206;&#x4E0D;&#x5F00;&#x6E90;&#xFF0C;&#x53EA;&#x653E;&#x51FA;&#x5F15;&#x811A;&#x5BF9;&#x5E94;&#x8868;&#xFF0C;&#x5982;&#x4E0B;&#x3002;</p>
 <h2 id="gpio">GPIO</h2>
 <table>
 <thead>
@@ -286,7 +285,7 @@
 <tr>
 <td>RTC_Interrupt</td>
 <td>IO5</td>
-<td>PCF8563</td>
+<td></td>
 </tr>
 <tr>
 <td>&#x5149;&#x654F;&#x7535;&#x963B;_ADC</td>
@@ -294,19 +293,19 @@
 <td></td>
 </tr>
 <tr>
-<td>Button_1</td>
-<td>IO7</td>
-<td></td>
+<td>Button_1&#x62E8;&#x8F6E;&#x5DE6;</td>
+<td>IO16</td>
+<td>&#x4E0A;&#x4E00;&#x4E2A;/&#x51CF;  &#x90E8;&#x5206;&#x529F;&#x80FD;&#x652F;&#x6301;&#x957F;&#x6309;</td>
 </tr>
 <tr>
-<td>Button_2 (Boot)</td>
+<td>Button_2 &#x62E8;&#x8F6E;&#x4E2D;(Boot)</td>
 <td>IO0</td>
-<td>&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x9009;&#x62E9;</td>
+<td>&#x77ED;&#x6309;&#x786E;&#x8BA4;/&#x8FDB;&#x5165;&#x83DC;&#x5355;  &#x957F;&#x6309;&#x8FD4;&#x56DE;</td>
 </tr>
 <tr>
-<td>Button_3 (EN)</td>
-<td>N/A</td>
-<td>ESP32_RESET</td>
+<td>Button_3&#x62E8;&#x8F6E;&#x53F3; (EN)</td>
+<td>IO16</td>
+<td>&#x4E0B;&#x4E00;&#x4E2A;/&#x52A0;  &#x90E8;&#x5206;&#x529F;&#x80FD;&#x652F;&#x6301;&#x957F;&#x6309;</td>
 </tr>
 <tr>
 <td>Buzzer</td>
@@ -339,11 +338,6 @@
 <td>&#x9700;&#x8981;&#x62C9;&#x9AD8;&#xFF0C;&#x62C9;&#x9AD8;&#x540E;&#x7ED9; VFD &#x4F9B;&#x7535;</td>
 </tr>
 <tr>
-<td>RGB_LED (WS2812)</td>
-<td>IO14</td>
-<td>&#x5F69;&#x706F;</td>
-</tr>
-<tr>
 <td>I2C_SDA</td>
 <td>IO41</td>
 <td>&#x89C1;&#x4E0B;&#x9762; I2C &#x8BBE;&#x5907;&#x5217;&#x8868;</td>
@@ -366,8 +360,8 @@
 </thead>
 <tbody>
 <tr>
-<td>PCF8563</td>
-<td>81 (0x51)</td>
+<td>RX8025T</td>
+<td>50 (0x32)</td>
 <td>RTC</td>
 </tr>
 </tbody>
@@ -415,7 +409,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"硬件相关","level":"1.3","depth":1,"next":{"title":"软件相关","level":"1.4","depth":1,"path":"software.md","ref":"software.md","articles":[]},"previous":{"title":"常见问题解答","level":"1.2","depth":1,"path":"question.md","ref":"question.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"hardware.md","mtime":"2023-04-19T01:47:38.309Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-04-19T01:49:04.068Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"硬件相关","level":"1.3","depth":1,"next":{"title":"软件相关","level":"1.4","depth":1,"path":"software.md","ref":"software.md","articles":[]},"previous":{"title":"常见问题解答","level":"1.2","depth":1,"path":"question.md","ref":"question.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","hide-element","pageview-count","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 120px","url":"./logo.png"}},"theme":"default","author":"jd3096","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VFD-CLOCK-WIKI","language":"zh-hans","gitbook":"*","description":"WIKI"},"file":{"path":"hardware.md","mtime":"2023-05-04T07:35:44.849Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-04T07:50:38.438Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

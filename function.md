@@ -1,6 +1,6 @@
 ## 菜单功能说明书
 
-### 一级菜单包括DATETIME  ALARM  POMODORO  SETTING  MUSIC  SYSINFO
+## 一级菜单包括DATETIME  ALARM  POMODORO  SETTING  MUSIC  SYSINFO
 
 ### DATETIME
 最基础功能，动画显示时间
@@ -16,9 +16,9 @@
 
 番茄时钟功能，会25分钟——5分钟交替倒计时  可按中间暂停
 
-### SETTING
+## SETTING（二级菜单）
 
-包括一下功能：
+包括以下功能：
 
 #### COUNTDAY
 倒计时目标日期的设定
@@ -37,6 +37,8 @@
 
 #### UPDATE
 亮点2：程序自动升级
+
+
 
 ### MUSIC
 
