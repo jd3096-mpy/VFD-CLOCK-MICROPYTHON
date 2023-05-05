@@ -8,8 +8,8 @@ dong大佬设计的外壳
 
 网友张之瀚设计的磁吸壳
 
-![](C:\Users\10913\Desktop\VFD\VFD-WIKI\pics\微信图片_20230504154558.jpg)
+![](./pics/微信图片_20230504154558.jpg)
 
 网友thorclyslm设计的多色壳，不愧是喷绘大佬
 
-![](C:\Users\10913\Desktop\VFD\VFD-WIKI\pics\six color.jpg)
+![](./pics/six color.jpg)

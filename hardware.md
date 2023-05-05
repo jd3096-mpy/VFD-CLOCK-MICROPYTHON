@@ -26,7 +26,7 @@
 | I2C_SDA               | IO41   | 见下面 I2C 设备列表         |
 | I2C_SCL               | IO42   | 见下面 I2C 设备列表         |
 
-## I2C Addresses（只留了PCF8563）
+## I2C Addresses
 
 | Device  | Address   | 备注 |
 | ------- | --------- | ---- |
